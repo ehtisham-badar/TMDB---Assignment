@@ -9,4 +9,6 @@ import UIKit
 
 class DatesCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var lblDate: UILabel!
+    @IBOutlet weak var mainView: UIView!
 }

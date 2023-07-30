@@ -2,6 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MADE_Sunflower</string>
+		<string>Poppins-Black</string>
+		<string>Poppins-BlackItalic</string>
+		<string>Poppins-Bold</string>
+		<string>Poppins-BoldItalic</string>
+		<string>Poppins-ExtraBold</string>
+		<string>Poppins-ExtraBoldItalic</string>
+		<string>Poppins-ExtraLight</string>
+		<string>Poppins-ExtraLightItalic</string>
+		<string>Poppins-Italic</string>
+		<string>Poppins-Light</string>
+		<string>Poppins-LightItalic</string>
+		<string>Poppins-Medium</string>
+		<string>Poppins-MediumItalic</string>
+		<string>Poppins-Regular</string>
+		<string>Poppins-SemiBold</string>
+		<string>Poppins-SemiBoldItalic</string>
+		<string>Poppins-Thin</string>
+		<string>Poppins-ThinItalic</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -16,10 +43,15 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
+					<string>TabBar</string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
 </dict>
 </plist>

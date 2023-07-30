@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - YouTubePlayer (0.7.2)
+
+DEPENDENCIES:
+  - SDWebImage (~> 4.4)
+  - YouTubePlayer
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - YouTubePlayer
+
+SPEC CHECKSUMS:
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  YouTubePlayer: 2b5f2830d8f9b2cde942083211291e382c9e6bd5
+
+PODFILE CHECKSUM: 97f19b59d41386ab5b53d9f9bfaeb63349f0cbbe
+
+COCOAPODS: 1.11.2

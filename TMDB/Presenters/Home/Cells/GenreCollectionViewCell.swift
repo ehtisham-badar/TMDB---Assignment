@@ -9,4 +9,10 @@ import UIKit
 
 class GenreCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var genreView: UIView!
+    @IBOutlet weak var lblName: UILabel!
+    
+    func populateCell(data: Genres){
+        lblName.text = data.name
+    }
 }
